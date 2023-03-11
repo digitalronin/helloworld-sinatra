@@ -3,5 +3,5 @@
 require 'sinatra'
 
 get '/' do
-  'Hello, world!'
+  'Testing github actions CD'
 end
