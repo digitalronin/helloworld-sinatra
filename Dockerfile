@@ -11,8 +11,8 @@ RUN bundle install
 COPY . .
 
 ENV RACK_ENV=production \
-    PORT=80
+    PORT=8080
 
-EXPOSE 80
+EXPOSE 8080
 
-CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0", "-p", "80"]
+CMD ["bundle", "exec", "rackup", "--host", "0.0.0.0", "-p", "8080"]

@@ -15,4 +15,5 @@ server: Gemfile.lock
 		-p 8000:80 \
 		$(TAG)
 
-
+deploy:
+	fly deploy
